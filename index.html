@@ -1,135 +1,116 @@
 <!DOCTYPE html>
 <html lang="en">
+	<head>
+		<!-- Landing Page -->
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>Crio4me</title>
+		<link rel="stylesheet" href="./style.css" />
 
-    <head>
-    <!-- Landing Page -->
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>QTrip</title>
-    <link rel="stylesheet" href="css/styles.css" />
+		<!-- Bootstrap Styles Plugin -->
+		<link
+			href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css"
+			rel="stylesheet"
+			integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9"
+			crossorigin="anonymous" />
+	</head>
 
-    <!-- Bootstrap Styles Plugin -->
-    <link 
-        href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" 
-        rel="stylesheet" 
-        integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" 
-        crossorigin="anonymous"
-    >
-    </head>
+	<body class="">
+		<!-- Navbar - Bootsrap -->
+		<nav
+			class="navbar bg-body-tirtiary navbar-expand-sm sticky-top border-bottom border-light-subtle">
+			<div class="container-fluid px-0 mx-2">
+				<a href="#" class="navbar-brand h1" style="margin-left: 1rem"
+					>Crio.Do 4 Me</a
+				>
 
-    <body class="">
-        <!-- Navbar - Bootsrap -->
-        <nav class="navbar bg-body-tirtiary navbar-expand-sm sticky-top border-bottom border-light-subtle">
-                <div class="container-fluid px-0 mx-2">
-                <a href="#" class="navbar-brand h1" style="margin-left: 1rem;">QTrip</a>
-                
-                    <button 
-                        class="navbar-toggler"
-                        type="button"
-                        data-bs-toggle="collapse"
-                        data-bs-target="#togglerTargetNavbar"    
-                    >
-                        <span class="navbar-toggler-icon"></span>
-                    </button>
-            
-                    <div class="collapse navbar-collapse justify-content-sm-end" id="togglerTargetNavbar" style="margin-left: 1rem;">                
-                            <ul class="navbar-nav">
-                                <li class="navbar-item"><a href="#" class="nav-link">Home</a></li>
-                                <li  class="navbar-item"><a href="./pages/adventures/index.html" class="nav-link">Explore</a></li>
-                            </ul>                
-                    </div>   
-                </div>     
-        </nav> 
+				<button
+					class="navbar-toggler"
+					type="button"
+					data-bs-toggle="collapse"
+					data-bs-target="#togglerTargetNavbar">
+					<span class="navbar-toggler-icon"></span>
+				</button>
 
-        <!-- Hero Image -->
-        <div class="hero-image img-responsive d-flex justify-content-center align-items-center">
-            <div class="mx-2 text-center d-flex justify-content-center align-items-center flex-column">
-                <h1 class="h1">Welcome to QTrip</h1>
-                <h4 class="hero-subheading">Explore the world with fantastic places to venture around</h4>
-                <input type="text" placeholder="Search a City" class="hero-input d-flex">
-            </div>
-        </div> 
+				<div
+					class="collapse navbar-collapse justify-content-sm-center"
+					id="togglerTargetNavbar"
+					style="margin-left: 1rem">
+					<ul class="navbar-nav">
+						<li class="navbar-item"><a href="#" class="nav-link">Home</a></li>
+						<li class="navbar-item">
+							<a href="./pages/adventures/index.html" class="nav-link"
+								>Explore</a
+							>
+						</li>
+						<li class="navbar-item">
+							<a href="https://profile.jagadeeshwar.net" class="nav-link"
+								>View Profile</a
+							>
+						</li>
+					</ul>
+				</div>
+			</div>
+		</nav>
 
-        <!-- Content - Main -->
-        <div class="container mb-2">
-            <div class="row row-cols-1 row-cols-sm-1 row-cols-md-2 row-cols-lg-4 row-cols-xl-4 row-cols-xxl-4">
+		<main class="h-100">
+			<!-- Hero Image -->
+		<div
+			class="hero-image img-responsive d-flex justify-content-center align-items-center">
+			<!-- <div
+				class="mx-2 text-center d-flex justify-content-center align-items-center flex-column">
+				<h1 class="h1">Welcome to QTrip</h1>
+				<h4 class="hero-subheading">
+					Explore the world with fantastic places to venture around
+				</h4>
+				<input
+					type="text"
+					placeholder="Search a City"
+					class="hero-input d-flex" />
+			</div> -->
+		</div>
+
+		<!-- Content - Main -->
+		<div class="container">
+            <div class="container row row-cols-1 row-cols-sm-1 row-cols-md-2 row-cols-lg-4 row-cols-xl-4 row-cols-xxl-4 m-0">
                 <div class="card col p-0 mx-auto my-2 d-flex justify-content-end align-items-center text-center tile">
-                   <a href="./pages/adventures/index.html"> <img src="./assets/bengaluru.jpg" alt="" class="card-img">
+                   <a href="https://crio-fe01.jagadeeshwar.net/"> <img src="./assets/bootstrap.jpg" alt="" class="card-img">
                         <div class="text-white card-body position-absolute d-flex flex-column">
-                        <div class="h4 card-text">BENGALURU</div>
-                        <div class="card-text">100+ PLACES</div></a>
+                        <div class="h4 card-text">FE 01</div>
+                        <div class="card-text">HTML CSS BOOTSTRAP</div>
+                    </a>
                     </div>
                 </div>
-            
-                <div class="card col p-0 mx-auto my-2 d-flex justify-content-end align-items-center text-center tile">
-                    <img src="./assets/kolkata.jpg" alt="" class="card-img">
-                    <div class="text-white card-body position-absolute d-flex flex-column">
-                        <div class="h4 card-text">KOLKATA</div>
-                        <div class="card-text">52+ PLACES</div>
-                    </div>
-                </div>
-            
-                <div class="card col p-0 mx-auto my-2 d-flex justify-content-end align-items-center text-center tile">
-                    <img src="./assets/goa.jpg" alt="" class="card-img">
-                    <div class="text-white card-body position-absolute d-flex flex-column">
-                        <div class="h4 card-text">GOA</div>
-                        <div class="card-text">160+ PLACES</div>
-                    </div>
-                </div>
-            
-                <div class="card col p-0 mx-auto my-2 d-flex justify-content-end align-items-center text-center tile">
-                    <img src="./assets/mumbai.jpg" alt="" class="card-img">
-                    <div class="text-white card-body position-absolute d-flex flex-column">
-                        <div class="h4 card-text">MUMBAI</div>
-                        <div class="card-text">121+ PLACES</div>
-                    </div>
-                </div>
-            
-                <div class="card col p-0 mx-auto my-2 d-flex justify-content-end align-items-center text-center tile">
-                    <img src="./assets/singapore.jpg" alt="" class="card-img">
-                    <div class="text-white card-body position-absolute d-flex flex-column">
-                        <div class="h4 card-text">SINGAPORE</div>
-                        <div class="card-text">89+ PLACES</div>
-                    </div>
-                </div>
-            
-                <div class="card col p-0 mx-auto my-2 d-flex justify-content-end align-items-center text-center tile">
-                    <img src="./assets/dubai.jpg" alt="" class="card-img">
-                    <div class="text-white card-body position-absolute d-flex flex-column">
-                        <div class="h4 card-text">DUBAI</div>
-                        <div class="card-text">74+ PLACES</div>
-                    </div>
-                </div>
-            
-                <div class="card col p-0 my-2 d-flex justify-content-end align-items-center text-center tile">
-                    <img src="./assets/malaysia.jpg" alt="" class="card-img">
-                    <div class="text-white card-body position-absolute d-flex flex-column">
-                        <div class="h4 card-text">MALAYSIA</div>
-                        <div class="card-text">172+ PLACES</div>
-                    </div>
-                </div>
-            
-                <div class="card col p-0 mx-auto my-2 d-flex justify-content-end align-items-center text-center tile">
-                    <img src="./assets/paris.jpg" alt="" class="card-img">
-                    <div class="text-white card-body position-absolute d-flex flex-column">
-                        <div class="h4 card-text">PARIS</div>
-                        <div class="card-text">150+ PLACES</div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    
-        <!-- Footer -->
-        <footer>
-        <div>© Jagadeeshwaran Eswaran | 2023 </div>
-        </footer>
 
-   
-        <script 
-            src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js" 
-            integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm" 
-            crossorigin="anonymous"
-        ></script>
-    </body>
+                <div class="card col p-0 mx-auto my-2 d-flex justify-content-end align-items-center text-center tile">
+                   <a href="http://crio-js01.jagadeeshwar.net/"> <img src="./assets/js-01.jpg" alt="" class="card-img">
+                        <div class="text-white card-body position-absolute d-flex flex-column">
+                        <div class="h4 card-text">JS - 01</div>
+                        <div class="card-text">Fundamentals</div>
+                    </a>
+                    </div>
+                </div>
 
+				<div class="card col p-0 mx-auto my-2 d-flex justify-content-end align-items-center text-center tile">
+                   <a href="http://crio-dsa-js.jagadeeshwar.net/"> <img src="./assets/dsa_ja.png" alt="" class="card-img">
+                        <div class="text-white card-body position-absolute d-flex flex-column">
+                        <div class="h4 card-text">DSA - JS</div>
+                        <div class="card-text">DSA with JavaScript</div>
+                    </a>
+                    </div>
+                </div>
+			</div>
+		</div>
+		</main>
+
+		<!-- Footer -->
+		<footer class="fixed-bottom bg-info-subtle">
+			<div>© QTrip 2020</div>
+		</footer>
+
+		<script
+			src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js"
+			integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm"
+			crossorigin="anonymous"></script>
+	</body>
 </html>
